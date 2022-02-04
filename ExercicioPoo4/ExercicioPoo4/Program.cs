@@ -12,6 +12,7 @@ namespace ExercicioPoo4 {
             Console.WriteLine(x);
             Console.WriteLine(i);
             List<string> list = new List<string>() { "teste", "maria" };
+            Console.WriteLine(list.Find(x => x[1] == 'a'));
         }
     }
 }
