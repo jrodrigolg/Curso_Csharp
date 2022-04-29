@@ -36,7 +36,8 @@ namespace ExPoo12
             {
                 Console.WriteLine(ex.Message);
             }
-
+            finally { Console.WriteLine("teste"); }
+            Console.WriteLine("teste");
             
         }
     }
